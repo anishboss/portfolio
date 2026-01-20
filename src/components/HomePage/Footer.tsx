@@ -15,7 +15,9 @@ const Footer = () => {
         <div className="flex flex-col">
           <p className="font-medium text-white lg:text-2xl">Media</p>
           <div className="flex text-gray lg:items-center lg:gap-2">
-            <p>github</p>
+            <a target="_blank" href="https://github.com/anishboss">
+              Github
+            </a>
             <p>linkedin</p>
             <p>instagram</p>
           </div>
