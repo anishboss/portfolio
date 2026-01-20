@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex items-center justify-center p-2 text-base text-gray">
-        <p>© Copyright 2024. Made by Anish</p>
+        <p>© Copyright 2026. Made by Anish</p>
       </div>
     </footer>
   );
