@@ -19,7 +19,12 @@ const Footer = () => {
               Github
             </a>
             <p>linkedin</p>
-            <p>instagram</p>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/anish_budhathoki27"
+            >
+              Instagram
+            </a>
           </div>
         </div>
       </div>
