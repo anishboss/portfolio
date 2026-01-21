@@ -1,12 +1,11 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-const gitHubPagesBasePath = process.env.PAGES_BASE_PATH;
+const gitHubPagesBasePath = import.meta.env.VITE_PAGES_BASE_PATH;
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/',
-  ...(gitHubPagesBasePath ? { basePath: gitHubPagesBasePath } : {}),
+  base: gitHubPagesBasePath ? gitHubPagesBasePath : '/',
   server: {
     open: true,
     port: 3000,
